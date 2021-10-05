@@ -17,6 +17,7 @@ export const KcApp = memo(({ kcContext, ...props }: { kcContext: KcContextBase; 
     switch (kcContext.pageId) {
         case "login.ftl": return <Login {...{ kcContext, ...props }} />;
         case "register.ftl": return <Register {...{ kcContext, ...props }} />;
+        case "register-user-profile": return <RegisterUserProfile {...{ kcContext, ...props }} />;
         case "info.ftl": return <Info {...{ kcContext, ...props }} />;
         case "error.ftl": return <Error {...{ kcContext, ...props }} />;
         case "login-reset-password.ftl": return <LoginResetPassword {...{ kcContext, ...props }} />;

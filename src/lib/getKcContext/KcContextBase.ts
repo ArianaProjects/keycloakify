@@ -136,6 +136,12 @@ export declare namespace KcContextBase {
                 displayName: string;
             }[]
         };
+        profile: {
+            attributes: {
+                group?: string;
+                groupDisplayHeader?: string;
+            }[];
+        }
     };
 
     export type Info = Common & {
