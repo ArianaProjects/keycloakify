@@ -4,7 +4,7 @@
     "description": "Keycloak theme generator for Reacts app",
     "repository": {
         "type": "git",
-        "url": "git://github.com/garronej/keycloakify.git"
+        "url": "git://github.com/ariana-germany/keycloakify.git"
     },
     "main": "dist/lib/index.js",
     "types": "dist/lib/index.d.ts",
@@ -53,7 +53,7 @@
         "login",
         "register"
     ],
-    "homepage": "https://github.com/garronej/keycloakify",
+    "homepage": "https://github.com/ariana-germany/keycloakify",
     "peerDependencies": {
         "@emotion/react": "^11.4.1",
         "powerhooks": "^0.10.0",
