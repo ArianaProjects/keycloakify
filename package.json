@@ -1,6 +1,6 @@
 {
-    "name": "keycloakify",
-    "version": "4.2.10",
+    "name": "@ariana-germany/keycloakify-mui",
+    "version": "0.1.0",
     "description": "Keycloak theme generator for Reacts app",
     "repository": {
         "type": "git",
@@ -10,7 +10,7 @@
     "types": "dist/lib/index.d.ts",
     "scripts": {
         "clean": "rimraf dist/",
-        "build": "yarn clean && tsc && yarn grant-exec-perms && yarn copy-files",
+        "build": "rimraf dist/ && tsc && npm run grant-exec-perms && npm run copy-files",
         "grant-exec-perms": "node dist/bin/tools/grant-exec-perms.js",
         "test": "node dist/test/bin/main && node dist/test/lib",
         "copy-files": "copyfiles -u 1 src/**/*.ftl src/**/*.xml src/**/*.js dist/",

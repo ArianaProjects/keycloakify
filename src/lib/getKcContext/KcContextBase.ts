@@ -4,7 +4,6 @@ import { assert } from "tsafe/assert";
 import type { Equals } from "tsafe";
 import type { MessageKey } from "../i18n/useKcMessage";
 import type { LanguageLabel } from "../i18n/KcLanguageTag";
-import { Theme } from "@mui/material";
 
 type ExtractAfterStartingWith<Prefix extends string, StrEnum> = StrEnum extends `${Prefix}${infer U}` ? U : never;
 
@@ -27,7 +26,6 @@ export type KcContextBase =
 
 export declare namespace KcContextBase {
     export type Common = {
-        theme: Theme;
         url: {
             loginAction: string;
             resourcesPath: string;

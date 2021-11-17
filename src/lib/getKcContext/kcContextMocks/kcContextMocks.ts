@@ -1,11 +1,11 @@
 import "minimal-polyfills/Object.fromEntries";
 import type { KcContextBase, Attribute } from "../KcContextBase";
-import { getEvtKcLanguage } from "../../i18n/useKcLanguageTag";
 import { getKcLanguageTagLabel } from "../../i18n/KcLanguageTag";
 //NOTE: Aside because we want to be able to import them from node
 import { resourcesCommonPath, resourcesPath } from "./urlResourcesPath";
 import { id } from "tsafe/id";
 import { join as pathJoin } from "path";
+import { getEvtKcLanguage } from "../../i18n/useKcLanguageTag";
 
 const PUBLIC_URL = process.env["PUBLIC_URL"] ?? "/";
 
